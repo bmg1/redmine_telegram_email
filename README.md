@@ -1,6 +1,6 @@
 # Telegram messages plugin for Redmine
 
-For Russian speakers [README.RUS.md](https://github.com/aekondratiev/redmine_telegram_email/blob/master/README.RUS.md)
+For Russian speakers [README.RUS.md](https://github.com/bmg1/redmine_telegram_email/blob/master/README.RUS.md)
 
 Plugin updated to redmine 4.1, need some tests, if you have troubles please create issue
 
@@ -11,7 +11,7 @@ This plugin send messages as email, only to the Telegram. So you can disable ema
 From your Redmine plugins directory, clone this repository as `redmine_telegram_email` (note
 the underscore!):
 
-    git clone https://github.com/aekondratiev/redmine_telegram_email redmine_telegram_email
+    git clone https://github.com/bmg1/redmine_telegram_email redmine_telegram_email
 
 You will also need the `httpclient` dependency, which can be installed by running
 
