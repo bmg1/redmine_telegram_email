@@ -5,11 +5,11 @@ require File.dirname(__FILE__) + '/lib/redmine_telegram_email/listener'
 
 Redmine::Plugin.register :redmine_telegram_email do
 	name 'Redmine Telegram Email'
-	author 'Andry Kondratiev'
-	url 'https://github.com/aekondratiev/redmine_telegram_email'
-	author_url 'https://github.com/aekondratiev'
+	author 'Vladimir Kiselyov'
+	url 'https://github.com/bmg1/redmine_telegram_email'
+	author_url 'https://github.com/bmg1'
 	description 'Telegram integration'
-	version '0.3'
+	version '0.5'
 
 	# change version
 	requires_redmine :version_or_higher => '4.1.0'
